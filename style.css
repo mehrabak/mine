@@ -40,14 +40,14 @@
     transform:scale(1.1);
     color:#00fff9;
 }
-.strong{
+strong{
     color: #ffff;
     transition: 0.3s ease;
     
 }
 .strong:hover{
     color: #00fff9;
-    text-shadow: 1 1 24 1 #00fff9;
+    text-shadow: 1 1 24px #00fff9;
     transform:scale(1.1);
 }
 .navbar a{
@@ -142,7 +142,6 @@
         
         display: flex;
         justify-content: center;
-        align-items: center;
         text-align: start;
         }
 
@@ -155,6 +154,7 @@
         line-height: 2;
         padding: 4rem 4rem;
         text-wrap:balance;
+    
     }
      .skills ,h4,h5 {
         color:#ffff;
@@ -172,11 +172,7 @@
         font-size:35px;
         padding-top: 30px;
     }
-    .icons {  
-        /* height: 400px; */
-        display: flex;
-        align-items: flex-end;
-    }
+    
 
       .icon-holder a{
         gap: 30px;
@@ -245,8 +241,8 @@
     color: #ffff;
     text-align: center;
     padding: 5px;
-    width: 380px;
-    height: 380px;
+    width: 350px;
+    height: 350px;
     box-sizing: border-box;
     border-radius:8px ;
     border: 1px solid #00fff9;
@@ -271,7 +267,11 @@
         font-size: 18px;
     }
     .main{
+        width: fit-content;
         flex-wrap: wrap;
+        font-size: 18px;
+    }
+    .home h1,h3{
         font-size: 18px;
     }
     
@@ -286,7 +286,13 @@
         flex-wrap: wrap;
         font-size: 20px;
     }
-    
+    .home h1,h3{
+        font-size:  20px;
+    }
+    .cont{
+        width:360px;
+        height: 700px;
+    }
   }
   @media only screen  and (min-width:481px) and (max-width:768px){
     .header{
@@ -297,7 +303,9 @@
         flex-wrap: wrap;
         font-size: 25px;
     }
-    
+    .home h1,h3{
+        font-size: 20px;
+    }
   }
   @media only screen  and (min-width:769px) and (max-width:992px){
     .header{
